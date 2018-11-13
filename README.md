@@ -3,8 +3,7 @@ A React CV Template APP with six different color schemes, just clone the reposit
 
 After cloning repository
 
-`npm i`
-`npm start`
+`npm i && npm start`
 
 Sample Page
 [http://sbaydin.com](http://sbaydin.com/)
