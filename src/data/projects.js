@@ -1,7 +1,7 @@
 export const projects = {
     sectionTitle: 'Personal Projects',
     icon: null,
-    description: 'Projects, I have completed & attended are listed below. To get general information about private project or not-finished projects you can get in touch.',
+    description: '',
     categories: [
         {
             name: 'Cryptocurrency',
