@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Section from './shared/section';
 
-export default class Experiences extends Component {
+export default class Experience extends Component {
   renderListItem(item, i) {
     return (
       <div className="item" key={`exp_item_${i}`}>
@@ -14,7 +14,12 @@ export default class Experiences extends Component {
           {this.renderCompanySection(item.company, item.companyLink, item.companyShortDetail)}
         </div>
         <div className="details">
-          <p dangerouslySetInnerHTML={{ __html: item.description }} />
+          <ul className="achievements-list">
+            {item.achievements.map((achievement, idx) => {
+              return (<li key={`achievement_idx_${idx}`}>{achievement}</li>)
+            })}
+          </ul>
+          <b>Key Achievement - </b> <span>{item.keyAchievement}</span>
         </div>
       </div>
     );
@@ -29,9 +34,9 @@ export default class Experiences extends Component {
     const { icon, sectionTitle, list } = this.props;
     return (
       <Section
-        className="experieces-section"
+        className="experiences-section"
         icon={icon || 'briefcase'}
-        title={sectionTitle || 'Experiences'}
+        title={sectionTitle || 'Experience'}
         id="experiences"
       >
         {list.map((item, i) => {
@@ -42,7 +47,7 @@ export default class Experiences extends Component {
   }
 }
 
-Experiences.propTypes = {
+Experience.propTypes = {
   list: PropTypes.arrayOf(PropTypes.shape()).isRequired,
   sectionTitle: PropTypes.string.isRequired,
   icon: PropTypes.string

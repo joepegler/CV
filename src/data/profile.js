@@ -1,17 +1,19 @@
 const profile = {
-  name: 'S.Berkay Aydın',
-  title: 'Full Stack Developer',
-  mail: 'sbaydin06@gmail.com',
-  phoneNumber: '+90 (507) 808 4130',
-  website: 'sbaydin.com',
-  linkedin: 'linkedin.com/in/sbaydin',
-  github: 'github.com/sbayd',
-  imagePath: 'profile.png',
+  name: 'Joe Pegler',
+  title: 'JavaScript Developer',
+  mail: 'joepegler@hotmail.com',
+  phoneNumber: '+44 7759776759',
+  website: 'joepegl.er',
+  linkedin: 'linkedin.com/in/joe-pegler-079a0459/',
+  github: 'github.com/joepegler',
+  imagePath: 'profile-pic.png',
   twitter: null,
   educationDetails: {
-    sectionTitle: '',
+    sectionTitle: 'University',
     list: [
-      { name: 'BSc in CEIT', school: 'Hacettepe University', date: '2013-Present' },
+        { name: 'MSc in Computing Science', school: 'UCC', date: '2013-2014', grade: '1-1' },
+        { name: 'HDip in Computing Science', school: 'UCC', date: '2012-2013', grade: '1-1' },
+        { name: 'BSc in Ecology', school: 'UCC', date: '2006-2010', grade: '1-2' },
     ]
   },
   languages: {
@@ -20,7 +22,7 @@ const profile = {
   },
   interests: {
     sectionTitle: '',
-    list: ['Pipes', 'Analog Photography', 'Cooking', 'Archery', 'Poems', 'Drums']
+    list: ['Cryptocurrency', 'Chess', 'Football', 'Table Tennis', 'Travel', 'Poker']
   }
 };
 

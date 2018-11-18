@@ -6,7 +6,7 @@ After cloning repository
 `npm i && npm start`
 
 Sample Page
-[http://sbaydin.com](http://sbaydin.com/)
+[http://joepegl.er](http://joepegl.er)
 
 ##Credits
 - [React](https://facebook.github.io/react/)

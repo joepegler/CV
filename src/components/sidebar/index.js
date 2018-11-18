@@ -4,22 +4,17 @@ import PropTypes from 'prop-types';
 import ProfileContainer from './profileContainer';
 import ContactDetails from './contactDetails';
 import EducationDetails from './educationDetails';
-import LanguageDetails from './languageDetails';
 import Interests from './interests';
 
 export default class Sidebar extends Component {
+
   renderInterests() {
     if (this.props.interests) {
       return (<Interests list={this.props.interests.list} title={this.props.interests.sectionTitle} />);
     }
     return null;
   }
-  renderLanguages() {
-    if (this.props.languages) {
-      return (<LanguageDetails list={this.props.languages.list} title={this.props.languages.sectionTitle} />);
-    }
-    return null;
-  }
+
   renderEducationDetails() {
     if (this.props.educationDetails) {
       return (<EducationDetails list={this.props.educationDetails.list} title={this.props.educationDetails.sectionTitle} />);
@@ -53,7 +48,6 @@ export default class Sidebar extends Component {
         {this.renderProfileContainer()}
         {this.renderContactDetails()}
         {this.renderEducationDetails()}
-        {this.renderLanguages()}
         {this.renderInterests()}
       </div>
     );

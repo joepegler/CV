@@ -5,14 +5,14 @@ import 'font-awesome/css/font-awesome.css';
 import './assets/theme/styles.css';
 import Section from './components/shared/section';
 import Sidebar from './components/sidebar';
-import Experiences from './components/experiences';
+import Experience from './components/experience';
 import Projects from './components/projects';
 import Tags from './components/tags';
 
 export default class CV extends Component {
   renderExperiencesSection() {
     if (this.props.experiences) {
-      return (<Experiences {...this.props.experiences} />);
+      return (<Experience {...this.props.experiences} />);
     }
     return null;
   }
@@ -29,8 +29,8 @@ export default class CV extends Component {
     return null;
   }
   renderOpenSourcePart() {
-    return (<div>You can create your own CV like this, <a href="https://github.com/sbayd/react-cv-template" target="_blank">access to the source code.</a></div>);
-  }     
+    return (<div></div>);
+  }
   renderCareerProfile() {
     const { icon, sectionTitle, description } = this.props.careerProfile;
     const innerContent = (<div className="summary" dangerouslySetInnerHTML={{ __html: description }} />);

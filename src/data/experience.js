@@ -1,0 +1,59 @@
+export const experience = {
+    sectionTitle: '',
+    icon: null,
+    description: null,
+    list: [
+        {
+            title: 'Frontend Lead',
+            company: 'GameAnalytics',
+            achievements: [
+                'Spearheaded redesign of company’s flagship AngularJS web app, which increased in users by 100% in two years',
+                'Worked closely with UI Designer, Product Manager, and backend developers to understand and build requirements',
+                'Promoted to Team Lead and made responsible for daily operations including hiring, onboarding and training of employees',
+            ],
+            keyAchievement: 'Awarded company MVP at GA annual awards 2017',
+            companyLink: 'https://gameanalytics.com',
+            companyShortDetail: '- Free Analytics Tool for Mobile Games',
+            date: '2016.10 - Present'
+        },
+        {
+            title: 'JavaScript Developer',
+            company: 'FSI',
+            achievements: [
+                'Maintained a platform on which single-page mobile applications were built for a host of Enterprise grade clients',
+                'Responsible for producing new features for the mobile cross platform JavaScript API using Cordova',
+            ],
+            keyAchievement: 'Excelled in delivering software solutions to enterprise clients under pressure',
+            companyLink: 'https://www.fsi.co.uk',
+            companyShortDetail: '- Computer Aided Facilities Management',
+            date: '2015.10 - 2016.10'
+        },
+        {
+            title: 'JavaScript Developer',
+            company: 'HealthCare21',
+            achievements: [
+                'Took sole responsibility for the design and development of AssetTrak, a mobile software tool for couriers.',
+                'Developed a web portal to view the whereabouts of the fleet',
+                'Worked directly with drivers to understand and build requirements',
+            ],
+            keyAchievement: 'Built an app used by a fleet of drivers that is still used extensively today',
+            companyLink: 'http://www.healthcare21.eu',
+            companyShortDetail: '- A Leading Supplier of Healthcare Solutions',
+            date: '2014.08 - 2015.10'
+        },
+        {
+            title: 'JavaScript Developer',
+            company: 'Nixatel',
+            achievements: [
+                'Played a key role in the coding of an online healthcare service',
+                'Contributed to the companies wordpress landing page'
+            ],
+            keyAchievement: 'Became an integral member of the team having joined as a junior, relied upon for writing good code.',
+            companyLink: 'linkedin.com/company/nixatel',
+            companyShortDetail: '- Software solutions and mobile web applications',
+            date: '2013.08 - 2014.08'
+        }
+    ]
+};
+
+export default experience;
