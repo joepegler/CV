@@ -21,7 +21,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "predeploy": "node scripts/build.js",
+    "predeploy": "node scripts/build.js && git commit -am 'auto push' && git push",
     "deploy": "gh-pages -d build",
     "test": "node scripts/test.js --env=jsdom"
   },
