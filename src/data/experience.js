@@ -22,7 +22,7 @@ export const experience = {
             achievements: [
                 'Developed and maintained critical components of a platform, on which mobile applications were built for Enterprise grade clients',
                 'Responsible for producing new features for the mobile cross platform JavaScript API with Cordova',
-                'Tested JavaScript code in multiple mobile OS to ensure web view compatibility. Maintained brand standards under company guidelines.'
+                'Tested JavaScript code in multiple mobile OS to ensure web view compatibility. Maintained brand standards under company guidelines'
             ],
             keyAchievement: 'Made sub-team lead of of three JavaScript developers. Offered and excelled in the role of scrum master for the sub-team',
             companyLink: 'https://www.fsi.co.uk',
@@ -33,7 +33,7 @@ export const experience = {
             title: 'JavaScript Developer',
             company: 'HealthCare21',
             achievements: [
-                'Took sole responsibility for the design and development of AssetTrak, a mobile software tool for couriers.',
+                'Took sole responsibility for the design and development of AssetTrak, a mobile software tool for couriers',
                 'Developed a web portal to view the whereabouts of the fleet',
                 'Worked directly with drivers to understand and build requirements',
             ],
@@ -49,7 +49,7 @@ export const experience = {
                 'Played a key role in the coding of an online healthcare service',
                 'Contributed to the companies wordpress landing page'
             ],
-            keyAchievement: 'Became an integral member of the team having joined as a junior, relied upon for writing good code.',
+            keyAchievement: 'Became an integral member of the team having joined as a junior, relied upon for writing good code',
             companyLink: 'linkedin.com/company/nixatel',
             companyShortDetail: '- Software solutions and mobile web applications',
             date: '2013.08 - 2014.08'
