@@ -3,7 +3,7 @@ const profile = {
   title: 'JavaScript Developer',
   mail: 'joepegler@hotmail.com',
   phoneNumber: '+44 7759776759',
-  website: 'joepegl.er',
+  website: 'https://joepegler.github.io/react-cv-template',
   linkedin: 'linkedin.com/in/joe-pegler-079a0459/',
   github: 'github.com/joepegler',
   imagePath: 'profile-pic.png',
