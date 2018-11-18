@@ -22,9 +22,9 @@ export const experience = {
             achievements: [
                 'Developed and maintained critical components of a platform, on which mobile applications were built for Enterprise grade clients',
                 'Responsible for producing new features for the mobile cross platform JavaScript API with Cordova',
-                'Made sub-team lead of of three JavaScript developers. Offered and excelled in the role of scrum master for the sub-team.'
+                'Tested JavaScript code in multiple mobile OS to ensure web view compatibility. Maintained brand standards under company guidelines.'
             ],
-            keyAchievement: 'Excelled in delivering software solutions to enterprise clients under pressure',
+            keyAchievement: 'Made sub-team lead of of three JavaScript developers. Offered and excelled in the role of scrum master for the sub-team',
             companyLink: 'https://www.fsi.co.uk',
             companyShortDetail: '- Computer Aided Facilities Management',
             date: '2015.10 - 2016.10'
