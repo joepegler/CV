@@ -1,6 +1,6 @@
 const profile = {
   name: 'Joe Pegler',
-  title: 'JavaScript Developer',
+  title: 'Frontend Developer',
   mail: 'joepegler@hotmail.com',
   phoneNumber: '+44 7759776759',
   website: 'joepegler.github.io/react-cv-template',
