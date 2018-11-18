@@ -11,7 +11,7 @@ export const projects = {
                 description: 'Automatic trader that trades a custom built algorithm using techincal analysis'
             }, {
                 url: 'https://github.com/joepegler/CryBot',
-                title: 'CryptoBot',
+                title: 'Crypto Collector',
                 description: 'Collects rich cryptocurrency trade data from the cryptocurrency exchanges with the highest volume'
             }, {
                 url: 'https://github.com/joepegler/gdaxArb',

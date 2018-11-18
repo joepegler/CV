@@ -7,7 +7,7 @@ export const experience = {
             title: 'Frontend Lead',
             company: 'GameAnalytics',
             achievements: [
-                'Spearheaded redesign of company’s flagship AngularJS web app, which increased in users by 100% in two years',
+                'Spearheaded redesign of company’s flagship AngularJS web app, which increased userbase by 100% in two years',
                 'Worked closely with UI Designer, Product Manager, and backend developers to understand and build requirements',
                 'Promoted to Team Lead and made responsible for daily operations including hiring, onboarding and training of employees',
             ],
