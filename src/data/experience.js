@@ -20,8 +20,9 @@ export const experience = {
             title: 'JavaScript Developer',
             company: 'FSI',
             achievements: [
-                'Maintained a platform on which single-page mobile applications were built for a host of Enterprise grade clients',
-                'Responsible for producing new features for the mobile cross platform JavaScript API using Cordova',
+                'Developed and maintained critical components of a platform, on which mobile applications were built for Enterprise grade clients',
+                'Responsible for producing new features for the mobile cross platform JavaScript API with Cordova',
+                'Made sub-team lead of of three JavaScript developers. Offered and excelled in the role of scrum master for the sub-team.'
             ],
             keyAchievement: 'Excelled in delivering software solutions to enterprise clients under pressure',
             companyLink: 'https://www.fsi.co.uk',
