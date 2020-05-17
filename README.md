@@ -6,7 +6,7 @@ After cloning repository
 `yarn install && yarn start`
 
 Sample Page
-[https://joepegler.github.io/react-cv-template/](https://joepegler.github.io/react-cv-template/)
+[https://joepegler.github.io/CV/](https://joepegler.github.io/CV/)
 
 ## Credits
 - [React](https://facebook.github.io/react/)

@@ -4,6 +4,18 @@ export const experience = {
     description: null,
     list: [
         {
+            title: 'Head of Frontend',
+            company: 'CoinFLEX',
+            achievements: [
+                'Lead Developer responsible for writing the core features, reviewing the teams PRs, implementing a robust CI/CD process, and hiring.',
+                'Running a team of four Javascript Developers, spearheading the redevelopment of the company’s core financial management interface.',
+            ],
+            keyAchievement: `Rewrite & Delivery of the Finances UI of CoinFLEX's Trading interface`,
+            companyLink: 'https://coinflex.com',
+            companyShortDetail: '- Cryptocurrency Futures Exchange',
+            date: '2019.11 - Present'
+        },
+        {
             title: 'Frontend Lead',
             company: 'GameAnalytics',
             achievements: [
@@ -14,7 +26,7 @@ export const experience = {
             keyAchievement: 'Awarded company MVP at GA annual awards 2017',
             companyLink: 'https://gameanalytics.com',
             companyShortDetail: '- Free Analytics Tool for Mobile Games',
-            date: '2016.10 - Present'
+            date: '2016.10 - 2019.10'
         },
         {
             title: 'JavaScript Developer',

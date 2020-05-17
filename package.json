@@ -1,7 +1,7 @@
 {
-  "name": "react-cv-template",
+  "name": "CV",
   "version": "0.1.0",
-  "homepage": "https://joepegler.github.io/react-cv-template",
+  "homepage": "https://joepegler.github.io/CV",
   "private": false,
   "dependencies": {
     "bootstrap": "^4.1.3",
