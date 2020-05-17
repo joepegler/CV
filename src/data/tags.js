@@ -3,19 +3,17 @@ export const tags = {
     icon: null,
     list: [
         'JavaScript',
-        'AngularJS',
-        'node',
+        'REACT',
+        'Angular',
         'git',
+        'node',
         'HTML',
-        'SASS/CSS',
+        'SCSS/CSS',
         'Cordova',
         'Ionic',
-        'grunt',
         'Linux',
-        'gulp',
         'jQuery',
-        'SQL',
-        'npm',
+        'SQL'
     ]
 };
 
